@@ -3,10 +3,10 @@ demo.py
 --------
 Simulates an AI system (e.g. a loan/fraud/content-moderation model) logging
 every decision it makes to the AuditLedger, then proves the log is
-tamper-evident.
+tamper evident.
 
 Run:
-    python3 demo.py
+    python3 demo.py/python demo.py
 """
 
 import json
