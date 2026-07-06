@@ -1,7 +1,7 @@
 """
 ledger.py
 ----------
-A minimal, dependency-free blockchain for logging AI model decisions.
+A minimal, dependency free blockchain for logging AI model decisions.
 
 Why this exists:
 Ethical/regulated AI systems need to prove *why* they made a decision, and
