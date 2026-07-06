@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+chain.json
+chain_tampered.json

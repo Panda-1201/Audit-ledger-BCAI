@@ -1,0 +1,93 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1783259519.8260214,
+    "decision": {
+      "type": "genesis",
+      "note": "Ledger initialized. No AI decision recorded in this block."
+    },
+    "previous_hash": "0",
+    "nonce": 0,
+    "hash": "9cdb84d09b4742281cd1aa0912da49cb42e63f803e122c4210cb78cf46376d1e"
+  },
+  {
+    "index": 1,
+    "timestamp": 1783259519.8265362,
+    "decision": {
+      "model": "fraud-checker-v1",
+      "transaction_id": 1001,
+      "input_summary": "transfer of $245.5",
+      "output": "approved",
+      "confidence": 0.12,
+      "reasoning": "risk_score=0.12 within normal range",
+      "logged_at": 1783259519.8265362
+    },
+    "previous_hash": "9cdb84d09b4742281cd1aa0912da49cb42e63f803e122c4210cb78cf46376d1e",
+    "nonce": 0,
+    "hash": "25e89c29d35c979b19a7dcdc7e8bdf8d5718691017fc892e52425cf570ede78c"
+  },
+  {
+    "index": 2,
+    "timestamp": 1783259519.8265362,
+    "decision": {
+      "model": "fraud-checker-v1",
+      "transaction_id": 1002,
+      "input_summary": "transfer of $5682.75",
+      "output": "approved",
+      "confidence": 0.35,
+      "reasoning": "risk_score=0.35 within normal range",
+      "logged_at": 1783259519.8265362
+    },
+    "previous_hash": "25e89c29d35c979b19a7dcdc7e8bdf8d5718691017fc892e52425cf570ede78c",
+    "nonce": 0,
+    "hash": "8c33d1690525e065437ef25f2e47ac1473f28eebedeea44bf905cdb3760da8c2"
+  },
+  {
+    "index": 3,
+    "timestamp": 1783259519.8265362,
+    "decision": {
+      "model": "fraud-checker-v1",
+      "transaction_id": 1003,
+      "input_summary": "transfer of $12800.0",
+      "output": "flagged",
+      "confidence": 0.83,
+      "reasoning": "risk_score=0.83 exceeds 0.70 threshold",
+      "logged_at": 1783259519.8265362
+    },
+    "previous_hash": "8c33d1690525e065437ef25f2e47ac1473f28eebedeea44bf905cdb3760da8c2",
+    "nonce": 0,
+    "hash": "901c25ff7dcb322a805e346a4f28edc1a7f145d99e3171f3965c071648c1c046"
+  },
+  {
+    "index": 4,
+    "timestamp": 1783259519.8270912,
+    "decision": {
+      "model": "fraud-checker-v1",
+      "transaction_id": 1004,
+      "input_summary": "transfer of $89.2",
+      "output": "approved",
+      "confidence": 0.05,
+      "reasoning": "risk_score=0.05 within normal range",
+      "logged_at": 1783259519.8270912
+    },
+    "previous_hash": "901c25ff7dcb322a805e346a4f28edc1a7f145d99e3171f3965c071648c1c046",
+    "nonce": 0,
+    "hash": "221dd3fba29413991921ec4fafe1481488dae47769731f5e3039d34aad4f72ac"
+  },
+  {
+    "index": 5,
+    "timestamp": 1783259519.8270912,
+    "decision": {
+      "model": "fraud-checker-v1",
+      "transaction_id": 1005,
+      "input_summary": "transfer of $7634.55",
+      "output": "flagged",
+      "confidence": 0.75,
+      "reasoning": "risk_score=0.75 exceeds 0.70 threshold",
+      "logged_at": 1783259519.8270912
+    },
+    "previous_hash": "221dd3fba29413991921ec4fafe1481488dae47769731f5e3039d34aad4f72ac",
+    "nonce": 0,
+    "hash": "38ff1911a7127b7b321fc9512e4dab7f6a474ebf98224794a6ce6d5df3256712"
+  }
+]
