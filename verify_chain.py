@@ -6,7 +6,7 @@ This simulates an auditor (or a client) checking the ledger later,
 in a completely separate process from whatever logged the decisions.
 
 Usage:
-    python3 verify_chain.py                 # verifies chain.json
+    python3 verify_chain.py/ python verify_chain.py                 # verifies chain.json
     python3 verify_chain.py path/to/file.json
 """
 
